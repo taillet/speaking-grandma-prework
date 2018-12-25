@@ -14,7 +14,7 @@
 
 def speak_to_grandma(input)
   if input == input.downcase
-    puts "HUH?! SPEAK UP, SONNY!"
+    return "HUH?! SPEAK UP, SONNY!"
   elsif input == input.upcase
     return "NO, NOT SINCE 1938!"
   elsif input == "I LOVE YOU GRANDMA!"
